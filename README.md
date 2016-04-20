@@ -14,7 +14,7 @@ Case-control genome-wide association studies (GWAS) focus on testing the associa
 The underlying estimation algorithm is only slightly more computationally intesive than any other methods listed above. LEAP is based off of a liability threshold model where the liability is estimated from a probit model, which is fitted using an iterative gradient descent algorithm with newton's method being used at each step. The genetic and environmental components of the liability measurement are generated from a joint MAP estimate, where only the genetic component is used in the algorithm to better adjust for related individuals. An estimate could be derived from the posterior mean for the liability measurement, but this is generally less accurate, and more computationally intensive. Runtime for original algorithm is approximately eight minutes per chromosome, insensitive to number of SNPs tested, for 8,000 individuals.  
 
 ## Implementation
-Update code from Python 2.7 to be compatible with Python 3
+Update code from Python 2.7 to be compatible with Python 3.xx
 
 ## Optimization
 
