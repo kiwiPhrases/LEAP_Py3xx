@@ -16,11 +16,7 @@ The underlying estimation algorithm is only slightly more computationally intesi
 ## Implementation
 Update code from Python 2.7 to be compatible with Python 3.xx
 
-## Optimization
-
-## Results
-
-## Comparisons
 
 ## References
 [1] O. Weissbrod, C. Lippert, D. Geiger, D. Heckerman, *Accurate liability estimation improves power in ascertained case-control studies*, Nature Methods, 2015.  
+[2] C. Lippert, J. Listgartern, Y. Liu, et al. *FaST linear mixed models for genome-wide association studies*, Nature Methods, 2011.
